@@ -147,11 +147,11 @@ Pipeline analytique + simulation :
 
 ```mermaid
 flowchart TD
-    A[Construire matrice de transition P] --> B[Mettre en forme canonique: Q,R]
-    B --> C[Calculer N = (I - Q)^(-1)]
-    C --> D[Calculer B = N*R et t = N*1]
-    D --> E[Valider par Monte Carlo]
-    E --> F[Comparer analytique vs empirique]
+    A["Construire matrice de transition P"] --> B["Mettre en forme canonique: Q, R"]
+    B --> C["Calculer N = inv(I - Q)"]
+    C --> D["Calculer B = N·R et t = N·1"]
+    D --> E["Valider par Monte Carlo"]
+    E --> F["Comparer analytique vs empirique"]
 ```
 
 ---
