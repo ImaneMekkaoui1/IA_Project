@@ -354,6 +354,7 @@ else:
 - **E2** : génération de graphes aléatoires reproductibles.
 - **E3** : étude multi-valeurs de `w` pour Weighted A*.
 - **E4** : analyse asymétrique (`p=0.6`) pour la chaîne absorbante.
+- **E5** : analyse de sensibilité de E[T] selon l'état initial (symétrique vs asymétrique).
 
 ---
 
